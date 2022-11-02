@@ -1,0 +1,658 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contair{
+    width: 100%;
+    height: 100%;
+    position: relative ;
+}
+.frames{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ari{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.chabody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+.aribnb{
+    font-size: 25px;
+    color: #FF385C;
+    margin-left: 100px;
+}
+.fa-airbnb{
+    position: absolute;
+    margin-left: 10px;
+}
+.text1{
+    padding: 15px 40px 15px 60px;
+   border-radius: 30px;
+   margin-left: 350px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 750px;
+    background-color: #FF385C;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border-radius: 999px;
+}
+.body{
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: white;
+}
+.fa-face-smile{
+ margin-left: 10px;
+}
+.icon{
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: 1px solid thistle;
+    background-color: white;
+    margin-left: 20px;
+}
+.fa-bars{
+    font-size: 15px;
+    margin-right: 30px;
+}
+.fa-circle-user{
+    position: absolute;
+    /* margin-left: 10px; */
+    margin-top: 5px;
+    font-size: 25px;
+    padding-right: 15px;
+}
+.frames1{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.canho{
+    font-size: 27px;
+}
+.fasolis{
+    padding-top: 10px;
+}
+.numboner{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+.chiase{
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+   margin-right: 5px;
+}
+.lua{
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+.fa-arrow-up-from-bracket{
+   padding-right: 10px;
+}
+.fa-heart{
+    padding-right: 10px;
+}
+.anh{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.http1{
+    width: 46%;
+    height: 330px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    image-rendering:pixelated;
+
+}
+.http2{
+    width: 45%;
+    height: 162px;
+    image-rendering:pixelated;
+}
+.http3{
+    width: 45%;
+    height: 162px;
+    border-top-right-radius: 20px;
+    image-rendering:pixelated;
+    
+}
+.http4{
+    width: 45%;
+    height: 163px;
+    image-rendering:pixelated;
+    
+}
+.http5{
+    width: 45%;
+    height: 163px;
+    border-bottom-right-radius: 20px;
+    image-rendering:pixelated;
+
+}
+ .khunganh2{
+   margin-left: 5px;
+   width: 50%;
+}  
+.butun{
+    margin-left: 71.5%;
+    padding: 5px 5px 5px 6px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.butun:hover{
+    cursor: pointer;
+}
+.fa-camera-movie{
+    color: #FF385C;
+    padding-right: 5px;
+}
+.phongrieng{
+    display: flex;
+}
+.chunha{
+    width: 90px;
+    height: 90px;
+    border-radius: 999px;
+    margin-left: 150px;
+}
+.famyli{
+    margin-top: 30px;
+    width: 47%;
+    height: 50%;
+    border-bottom: 1px solid rgb(113, 113, 113);
+    margin-left: 100px;
+}
+.passion1{
+    font-size: 18px;
+}
+.fa-user{
+    padding-right: 20px;
+    color:#FF385C;
+}
+.eternity1{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: rgb(113, 113, 113);
+}
+.passion2{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.fa-location-dot{
+    padding-right: 20px;
+    color:#FF385C;
+}
+.eternity2{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: rgb(113, 113, 113);
+}
+.passion3{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.fa-tree{
+    padding-right: 20px;
+    color:#FF385C;
+}
+.eternity3{
+    margin-top: 10px;
+    margin-left: 35px;
+    color: rgb(113, 113, 113);
+}
+.freedom{
+    width: 47%;
+    height: 50%;
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(113, 113, 113);
+}
+.palay{
+    display: flex;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.flay1{
+    color: #FF385C;
+}
+.cherish1{
+    margin-top: 10px;
+    color: rgb(113, 113, 113);
+    font-size: 17px;
+}
+.timem{
+    margin-top: 10px; 
+    font-weight: 600;
+}
+.cherish2{
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+    font-size: 17px;
+}
+.rainbow{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 47%;
+    height: 100%;
+    border-bottom: 1px solid rgb(113, 113, 113);
+}
+.bonsai{
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.khu1{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.khu2{
+    margin-top: 5px;
+}
+.am-afraid{
+    width: 47%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(113, 113, 113) ;
+}
+.only-child{
+    display: flex;
+}
+.child{
+    margin-right: 10px;
+}
+.child1{
+    margin-left: 40px;
+}
+.fa-sharp {
+    padding-right: 20px;
+    padding-top: 20px;
+    color: rgb(113, 113, 113);
+}
+.baby{
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+    border: none;
+    box-shadow: 8px 1px 167px -29px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 1px 167px -29px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 1px 167px -29px rgba(0,0,0,0.75);
+}
+.baby:hover{
+    cursor: pointer;
+}
+.am1{
+    font-weight: 600;
+    font-size: 23px;
+}
+.posion{
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid rgb(113, 113, 113);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.famita{
+    margin-left: 100px;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(113, 113, 113);
+    width: 85%;
+}
+.Hey-man{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.hr1{
+    width: 10%;
+    display: flex;
+}
+.Whazzup{
+    font-weight: 600;
+}
+.Heeey{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.meetyou{
+    display: flex;
+}
+.bikini{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+.meetti{
+   margin-left: 10px;
+   margin-top: 8px;
+}
+.lee{
+    font-weight: 600;
+}
+.thang{
+    color: rgb(113, 113, 113);
+}
+.Goodbye{
+    width: 60%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(113, 113, 113);
+    margin-right: 100px;
+}
+.bikini1{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+.meetyou1{
+    display: flex;
+}
+.Thanks{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.danhgia{
+    font-size: 25px;
+    font-weight: 700;
+}
+.chi{
+    font-weight: 600;
+}
+.chatluong{
+    color: rgb(113, 113, 113);
+}
+.goodbya{
+    margin-top: 20px;
+    color: rgb(113, 113, 113);
+}
+.Heeey1{
+    display: flex;
+    margin-top: 40px;
+}
+.meetyou2{
+    display: flex;
+}
+.bikini2{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+.chi1{
+    font-weight: 600; 
+}
+.Thanks1{
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 50%;
+}
+.meetyou3{
+    display: flex;
+    width: 64%;
+    margin-left: 80px;
+}
+.bikini3{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+.goodbya1{
+    margin-top: 20px;
+    color: rgb(113, 113, 113);
+    font-size: 18px;
+}
+.chatluong1{
+    color: rgb(113, 113, 113);
+}
+.Thanks2{
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 50%;
+}
+.chi2{
+    font-weight: 600;
+}
+.No-way{
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+    margin-left: 60px;
+    border: none;
+}
+.No-way:hover{
+    cursor: pointer;
+}
+.famitaat{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.noi{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nhanghi{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(113, 113, 113);
+}
+.bando{
+    margin-top: 20px;
+}
+.hr{
+    width: 92%;
+}
+.imgpolo{
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+}
+.Hell-no{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.hell{
+    margin-left: 10px;
+}
+.Good2{
+    padding-top: 10px;
+    color: rgb(113, 113, 113);
+}
+.Good1{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.garen1{
+    display: flex;
+    margin-left: 100px;
+}
+.fa-check{
+    padding-left: 20px;
+}
+.thinking{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.thick{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.contaitt{
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+    border: none;
+}
+.contaitt:hover{
+    cursor: pointer;
+}
+.baove{
+    width: 60%;
+    color:rgb(113, 113, 113);
+    font-size: 14px;
+}
+.bang{
+    width: 350px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-left: 63%;
+    border-radius: 10px;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+    position: absolute;
+}
+.faan{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.clas{
+    padding-left: 20px;
+    padding-right: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.clas1{
+    font-size: 18px;
+}
+.bang2{
+    display: flex;
+    width: 280px;
+    height: 60px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    /* box-shadow: inset 5em 1em gold; */
+}
+.taito{
+    width: 160px;
+    height: 60px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.taito1{
+    width: 160px;
+    height: 60px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+.nhan{
+    margin-left: 30px;
+    margin-top: 6px;
+    font-weight: 600;
+}
+.nhan1{
+    margin-left: 33px;
+    margin-top: 6px 
+}
+.bang3{
+    width: 280px;
+    height: 60px;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 40px;
+    /* box-shadow: 10px 5px 5px red; */
+}
+.nhan3{
+    margin-top: 10px;
+    margin-left: 117px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nhan4{
+    margin-left: 117px;
+}
+.kiemtra{
+    padding: 15px 58px 15px 58px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FF385C;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.heloword1{
+    margin-top: 20px;
+}
+.anh{
+    width: 100%;
+    height: 100%;
+}
+div.stars {
+    width: 407px;
+    display: inline-block;
+    margin-right: 250px;
+  }
+   
+  input.star { display: none; }
+   
+  label.star {
+    float: right;
+    /* padding: 10px; */
+    font-size: 36px;
+    color: #444;
+    transition: all .2s;
+    padding-right: 40px;
+  }
+   
+  input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+   
+  input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+   
+  input.star-1:checked ~ label.star:before { color: #F62; }
+   
+  label.star:hover { transform: rotate(-15deg) scale(1.3); }
+   
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+
+
+
+
+

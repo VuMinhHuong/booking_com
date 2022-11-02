@@ -21,7 +21,7 @@ app.use(express.static("public"));
 
 // setup route
 app.get("/", (req, res) => {
-    res.render("homePage", {
+    res.render("booking", {
         title: "Home page",
     });
 });
