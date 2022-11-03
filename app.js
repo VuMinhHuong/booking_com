@@ -17,11 +17,11 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(express.static("public"));
 
-// const khachRoutes = require("./routes/khach.routes")
+const khachRoutes = require("./routes/khach.routes")
 
 // setup route
 app.get("/", (req, res) => {
-    res.render("booking", {
+    res.render("login", {
         title: "Home page",
     });
 });

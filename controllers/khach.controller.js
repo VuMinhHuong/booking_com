@@ -4,5 +4,5 @@
 // const saltRounds = 10;
 
 // module.exports.getAll = (req, res) => {
-
+    
 // }
