@@ -19,7 +19,7 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(express.static("public"));
 
-const khachRoutes = require("./routes/khach.routes")
+const authRoutes = require("./routes/auth.routes");
 
 // setup route
 app.get("/", (req, res) => {
@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
 // app.use("/khach", khachRoutes)
 // app.use("/host", hostRoutes)
 // app.use("/admin", adminRoutes)
-// app.use("/auth",authRoutes)
+app.use("/auth",authRoutes);
 
 // listen on port
 app.listen(port, () => {

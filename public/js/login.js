@@ -17,9 +17,7 @@ loginForm.onsubmit = function (e) {
     }  else {
         document.getElementById("success").innerHTML = 'dang nhap oke'
         document.getElementById("success").style.color = 'green'
-    }
-    
-    
+    } 
 }
 
 
