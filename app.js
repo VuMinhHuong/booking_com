@@ -6,6 +6,8 @@ const cors = require("cors");
 const morgan = require("morgan");
 port = 3000;
 
+// let authRoutes = require("./routes/auth.routes")
+
 // view engine
 app.set("view engine", "ejs");
 app.set("views", `${__dirname}/views`);
@@ -29,6 +31,7 @@ app.get("/", (req, res) => {
 // app.use("/khach", khachRoutes)
 // app.use("/host", hostRoutes)
 // app.use("/admin", adminRoutes)
+// app.use("/auth",authRoutes)
 
 // listen on port
 app.listen(port, () => {
