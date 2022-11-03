@@ -23,7 +23,7 @@ const khachRoutes = require("./routes/khach.routes")
 
 // setup route
 app.get("/", (req, res) => {
-    res.render("login", {
+    res.render("homePage", {
         title: "Home page",
     });
 });

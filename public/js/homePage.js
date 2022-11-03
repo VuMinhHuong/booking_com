@@ -34,3 +34,4 @@ logInOut.onclick = function() {
         dropDownInOut.style.display = "none";
     }
 };
+
