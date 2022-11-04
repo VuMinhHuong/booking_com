@@ -1,38 +1,51 @@
-
+let api = "http://127.0.0.1:3000/";
 const inputemail = document.getElementsByClassName("inputemail")[0];
 const inputpassword = document.getElementsByClassName("inputpassword")[0];
 
-let email = "nguyentruongan@gmail.com";
-let password = "hoaian2807";
+
+
 let loginForm = document.getElementById("login-form")
-loginForm.onsubmit = function (e) {
+loginForm.addEventListener ("submit", function (e) {
     e.preventDefault();
-    if(loginForm.email.value == "" || loginForm.password.value == ""){
-        document.getElementById("success").innerHTML = 'Email hoặc password không được bỏ trống!'
+   
+    let email = loginForm.email.value;
+    let password = loginForm.password.value;
+    console.log(email,password);
+    let data = {
+        email,
+        password,
+    };
+      fetch(api + "auth/login", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+      .then((res)=> res.json())
+      .then((data)=> {
+        document.getElementById("success").innerHTML = data.message
         document.getElementById("success").style.color = 'red'
-    } else
-    if(loginForm.email.value !== email || loginForm.password.value !== password){
-        document.getElementById("success").innerHTML = 'Sai email hoac mat khau'
-        document.getElementById("success").style.color = 'red'
-    }  else {
-        document.getElementById("success").innerHTML = 'dang nhap oke'
-        document.getElementById("success").style.color = 'green'
-    } 
-}
+    
+        console.log(data);
+        if(data.status === "success"){
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Đăng nhập thành công',
+                showConfirmButton: false,
+                timer: 2000
+              })
+              
+            window.location.href ="/";
+        }
 
 
 
-// loginForm.addEventListener("submit", function (e) {
-//   e.preventDefault();
+      })
+      .catch((err)=> console.log(err))
+})
+    
 
-//   // let email = loginForm.email.value
-//   // console.log(email);
-//   // let password = loginForm.password.value
-//   // console.log(password);
-//   if (inputemail.value == "") {
-//     inputemail.style.border = "1px solid red";
-//   }
-//   if (inputpassword.value == "") {
-//     inputpassword.style.border = "1px solid red";
-//   }
-// });
+
+

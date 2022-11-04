@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    max-width: 400px;
+    height: 600px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 10px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -35px;
+  }
+  .emali{
+    font-size: 12px;
+    color: red;
+  }
+  .err-password{
+    font-size: 12px;
+    color: red;
+  }

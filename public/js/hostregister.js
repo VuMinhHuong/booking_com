@@ -33,7 +33,7 @@ const showMessage = (message) => {
       emailaddress,
       password,
     };
-    fetch(api + "auth/register", {
+    fetch(api + "auth/hostregister", {
       method: "POST",
       headers: {
           "Content-Type": "application/json",
